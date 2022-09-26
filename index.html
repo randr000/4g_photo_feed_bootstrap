@@ -29,71 +29,79 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-white">
-            <ul class="nav nav-tabs justify-content-center py-2">
-                <li class="nav-item nav-link me-3 text-primary" data-bs-toggle="tab" data-bs-target="#grid-feed"><i class="bi bi-grid-3x3"></i></li>
-                <li class="nav-item nav-link ms-3 text-secondary" data-bs-toggle="tab" data-bs-target="#card-feed"><i class="bi bi-square-fill"></i></li>
-            </ul>
-        </div>
     </nav>
 
-    <section class="tab-content">
-        <section id="card-feed tab-pane fade" class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col col-1 w-50">
-                    <div class="card mt-4">
-                        <div class="card-header d-inline-flex align-items-center bg-white">
-                            <h2 class="card-title fs-4 me-auto">Display</h2>
-                            <span class="card-title fs-4">09/25</span>
+    <section class="container-fluid">
+        <ul class="justify-content-center nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#grid-feed" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                <i class="bi bi-grid-3x3"></i>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#card-feed" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                <i class="bi bi-square-fill"></i>
+              </button>
+            </li>
+        </ul>
+        <section class="tab-content">
+            <section id="card-feed" class="container-fluid tab-pane fade show active">
+                <div class="row justify-content-center">
+                    <div class="col col-1 w-50">
+                        <div class="card mt-4">
+                            <div class="card-header d-inline-flex align-items-center bg-white">
+                                <h2 class="card-title fs-4 me-auto">Display</h2>
+                                <span class="card-title fs-4">09/25</span>
+                            </div>
+                            <img src="http://www.pixelstalk.net/wp-content/uploads/2016/10/Nature-pc-wallpapers-free-download.jpg" alt="" class=" bg-white">
+                            <div class="card-footer bg-white">
+                                <span class="fw-bold fs-5">204 Likes</span>
+                                <p class="fs-5">This is an image</p>
+                            </div>
                         </div>
-                        <img src="http://www.pixelstalk.net/wp-content/uploads/2016/10/Nature-pc-wallpapers-free-download.jpg" alt="" class=" bg-white">
-                        <div class="card-footer bg-white">
-                            <span class="fw-bold fs-5">204 Likes</span>
-                            <p class="fs-5">This is an image</p>
+                        <div class="card mt-4">
+                            <div class="card-header d-inline-flex align-items-center bg-white">
+                                <h2 class="card-title fs-4 me-auto">Display</h2>
+                                <span class="card-title fs-4">09/25</span>
+                            </div>
+                            <img src="http://www.pixelstalk.net/wp-content/uploads/2016/06/Free-Desktop-HD-Bamboo-Wallpapers.jpg" alt="" class=" bg-white">
+                            <div class="card-footer bg-white">
+                                <span class="fw-bold fs-5">204 Likes</span>
+                                <p class="fs-5">This is an image</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card mt-4">
-                        <div class="card-header d-inline-flex align-items-center bg-white">
-                            <h2 class="card-title fs-4 me-auto">Display</h2>
-                            <span class="card-title fs-4">09/25</span>
+                        <div class="card mt-4">
+                            <div class="card-header d-inline-flex align-items-center bg-white">
+                                <h2 class="card-title fs-4 me-auto">Display</h2>
+                                <span class="card-title fs-4">09/25</span>
+                            </div>
+                            <img src="http://www.pixelstalk.net/wp-content/uploads/2016/07/Peaceful-Pictures.jpg" alt="" class=" bg-white">
+                            <div class="card-footer bg-white">
+                                <span class="fw-bold fs-5">204 Likes</span>
+                                <p class="fs-5">This is an image</p>
+                            </div>
                         </div>
-                        <img src="http://www.pixelstalk.net/wp-content/uploads/2016/06/Free-Desktop-HD-Bamboo-Wallpapers.jpg" alt="" class=" bg-white">
-                        <div class="card-footer bg-white">
-                            <span class="fw-bold fs-5">204 Likes</span>
-                            <p class="fs-5">This is an image</p>
-                        </div>
-                    </div>
-                    <div class="card mt-4">
-                        <div class="card-header d-inline-flex align-items-center bg-white">
-                            <h2 class="card-title fs-4 me-auto">Display</h2>
-                            <span class="card-title fs-4">09/25</span>
-                        </div>
-                        <img src="http://www.pixelstalk.net/wp-content/uploads/2016/07/Peaceful-Pictures.jpg" alt="" class=" bg-white">
-                        <div class="card-footer bg-white">
-                            <span class="fw-bold fs-5">204 Likes</span>
-                            <p class="fs-5">This is an image</p>
-                        </div>
-                    </div>
-                    <div class="card mt-4">
-                        <div class="card-header d-inline-flex align-items-center bg-white">
-                            <h2 class="card-title fs-4 me-auto">Display</h2>
-                            <span class="card-title fs-4">09/25</span>
-                        </div>
-                        <img src="http://www.pixelstalk.net/wp-content/uploads/2016/07/Peaceful-HD-Backgrounds.jpg" alt="" class=" bg-white">
-                        <div class="card-footer bg-white">
-                            <span class="fw-bold fs-5">204 Likes</span>
-                            <p class="fs-5">This is an image</p>
+                        <div class="card mt-4">
+                            <div class="card-header d-inline-flex align-items-center bg-white">
+                                <h2 class="card-title fs-4 me-auto">Display</h2>
+                                <span class="card-title fs-4">09/25</span>
+                            </div>
+                            <img src="http://www.pixelstalk.net/wp-content/uploads/2016/07/Peaceful-HD-Backgrounds.jpg" alt="" class=" bg-white">
+                            <div class="card-footer bg-white">
+                                <span class="fw-bold fs-5">204 Likes</span>
+                                <p class="fs-5">This is an image</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section id="grid-feed" class="container-fluid mt-4 tab-pane fade">
-            <div class="row grid-row">
-                <div class="col col-4 vh-10"><img class="img-thumbnail p-0 border-0 rounded-0" height="50px" src="http://www.pixelstalk.net/wp-content/uploads/2016/06/Free-Desktop-HD-Bamboo-Wallpapers.jpg" alt=""></div>
-                <div class="col col-4"><img class="img-thumbnail p-0 border-0 rounded-0" height="50px" src="http://www.pixelstalk.net/wp-content/uploads/2016/07/Peaceful-Pictures.jpg" alt=""></div>
-                <div class="col col-4"><img class="img-thumbnail p-0 border-0 rounded-0" height="50px" src="http://www.pixelstalk.net/wp-content/uploads/2016/10/Nature-pc-wallpapers-free-download.jpg" alt=""></div>
-            </div>
+            </section>
+            <section id="grid-feed" class="container-fluid mt-4 tab-pane fade">
+                <div class="row grid-row">
+                    <div class="col col-4 vh-10"><img class="img-thumbnail p-0 border-0 rounded-0" height="50px" src="http://www.pixelstalk.net/wp-content/uploads/2016/06/Free-Desktop-HD-Bamboo-Wallpapers.jpg" alt=""></div>
+                    <div class="col col-4"><img class="img-thumbnail p-0 border-0 rounded-0" height="50px" src="http://www.pixelstalk.net/wp-content/uploads/2016/07/Peaceful-Pictures.jpg" alt=""></div>
+                    <div class="col col-4"><img class="img-thumbnail p-0 border-0 rounded-0" height="50px" src="http://www.pixelstalk.net/wp-content/uploads/2016/10/Nature-pc-wallpapers-free-download.jpg" alt=""></div>
+                </div>
+            </section>
         </section>
     </section>
 
