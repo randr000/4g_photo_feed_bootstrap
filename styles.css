@@ -1,3 +1,19 @@
 .grid-row {
     border: red dotted 1px;
+    /* height: 1px !important; */
+}
+
+.grid-col {
+    border: blue dotted 1px;
+    /* height: 300px !important; */
+}
+
+.grid-img-container {
+    position: relative;
+}
+
+.grid-img-container:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
 }
